@@ -1,0 +1,61 @@
+/* Tailwind source – compiled to assets/css/site.css with `npm run build`. */
+@import "tailwindcss" source(none);
+@source "../../index.html";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --color-accent: #99cc33;   /* the one and only accent – used sparingly */
+  --color-ink: #1d1f1b;
+  --color-paper: #f6f5f1;
+  --ease-out-ui: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
+  body { @apply bg-paper font-normal text-ink antialiased; }
+  section[id] { scroll-margin-top: 5.5rem; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: none; box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--color-accent); border-radius: 12px; }
+  ::selection { background: rgb(153 204 51 / 0.35); color: var(--color-ink); }
+}
+
+@utility display {
+  font-weight: 300;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+}
+
+/* Fine accent underline for a key phrase */
+@utility accent-line {
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 0.055em;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: none;
+}
+
+@utility eyebrow {
+  @apply flex items-center gap-3 text-xs font-medium uppercase tracking-[0.22em] text-ink/50;
+  &::before { content: ""; width: 1.75rem; height: 1px; background: var(--color-accent); }
+}
+
+@utility press {
+  transition-property: transform, background-color, border-color, color, box-shadow;
+  transition-duration: 160ms;
+  transition-timing-function: var(--ease-out-ui);
+  &:active { transform: scale(0.97); }
+}
+
+@utility btn-primary {
+  @apply press inline-flex items-center justify-center gap-2.5 rounded-full bg-ink font-medium text-white;
+  box-shadow: 0 1px 2px rgb(29 31 27 / 0.2), inset 0 1px 0 rgb(255 255 255 / 0.08);
+}
+@utility btn-secondary {
+  @apply press inline-flex items-center justify-center gap-2 rounded-full border border-ink/15 bg-white font-medium text-ink;
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
