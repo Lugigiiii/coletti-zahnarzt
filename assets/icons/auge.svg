@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="93" height="48" viewBox="0 0 52 27" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-395.2,-285)">
+        <path d="M421.2,311.4C407.4,311.4 396.5,299.5 396,299L395.2,298.2L396,297.4C396.5,296.9 407.4,285 421.2,285C435,285 445.9,296.9 446.4,297.4L447.2,298.2L446.4,299C446,299.5 435,311.4 421.2,311.4ZM398.2,298.1C401,300.8 410.3,309.1 421.2,309.1C432.1,309.1 441.4,300.8 444.2,298.1C441.4,295.4 432.1,287.1 421.2,287.1C410.3,287.2 401,295.4 398.2,298.1Z" style="fill:rgb(149,193,34);fill-rule:nonzero;"/>
+        <path d="M421.2,307.9C415.8,307.9 411.4,303.5 411.4,298.1C411.4,292.7 415.8,288.3 421.2,288.3C426.6,288.3 431,292.7 431,298.1C431,303.5 426.6,307.9 421.2,307.9ZM421.2,290.2C416.8,290.2 413.3,293.8 413.3,298.1C413.3,302.5 416.9,306 421.2,306C425.6,306 429.1,302.4 429.1,298.1C429.2,293.8 425.6,290.2 421.2,290.2Z" style="fill:rgb(149,193,34);fill-rule:nonzero;"/>
+        <circle cx="421.2" cy="298.1" r="6.4" style="fill:rgb(149,193,34);"/>
+    </g>
+</svg>
