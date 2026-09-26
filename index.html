@@ -462,22 +462,6 @@
             "@type": "Answer",
             "text": "Nach dem Zahnarzttarif DENTOTAR®. Unsere Taxpunktwerte seit Anfang 2018: Privat 1.13, UVG / IV / MV / KJZ / SZP 1.00, KVG 3.10."
           }
-        },
-        {
-          "@type": "Question",
-          "name": "Wer sind die Zahnärztinnen und Zahnärzte?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dr. med. dent. Luigi Coletti, Dr. med. dent. Adriana Scioscia (Fachzahnärztin für Rekonstruktive Zahnmedizin), Dr. med. dent. Luca Forcella und M Dent Med Izabela Pejic – alle eidgenössisch diplomiert und Mitglied der Schweizerischen Zahnärztegesellschaft SSO."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Gibt es einen zweiten Standort?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja. Die Zahnarztpraxis Coletti AG führt zusätzlich eine Praxis an der Landstrasse 40 in 5073 Gipf-Oberfrick (Telefon 062 871 39 42)."
-          }
         }
       ]
     }
@@ -582,7 +566,6 @@
           <li><a class="nav-link press block rounded-full px-3.5 py-2 hover:text-ink" href="#behandlungen">Behandlungen</a></li>
           <li><a class="nav-link press block rounded-full px-3.5 py-2 hover:text-ink" href="#geschichte">Geschichte</a></li>
           <li><a class="nav-link press block rounded-full px-3.5 py-2 hover:text-ink" href="#team">Team</a></li>
-          <li><a class="nav-link press block rounded-full px-3.5 py-2 hover:text-ink" href="#fragen">Fragen</a></li>
           <li><a class="nav-link press block rounded-full px-3.5 py-2 hover:text-ink" href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
@@ -603,7 +586,6 @@
             <li><a class="press flex items-center justify-between rounded-2xl px-4 py-3 active:bg-ink/5" href="#behandlungen">Behandlungen <span class="size-1.5 rounded-full bg-accent"></span></a></li>
             <li><a class="press flex items-center justify-between rounded-2xl px-4 py-3 active:bg-ink/5" href="#geschichte">Geschichte <span class="size-1.5 rounded-full bg-accent"></span></a></li>
             <li><a class="press flex items-center justify-between rounded-2xl px-4 py-3 active:bg-ink/5" href="#team">Team <span class="size-1.5 rounded-full bg-accent"></span></a></li>
-            <li><a class="press flex items-center justify-between rounded-2xl px-4 py-3 active:bg-ink/5" href="#fragen">Fragen <span class="size-1.5 rounded-full bg-accent"></span></a></li>
             <li><a class="press flex items-center justify-between rounded-2xl px-4 py-3 active:bg-ink/5" href="#kontakt">Kontakt <span class="size-1.5 rounded-full bg-accent"></span></a></li>
           </ul>
         </nav>
@@ -1109,8 +1091,39 @@
     </section>
 
 
+    <!-- ============ Kontakt ============ -->
+    <section id="kontakt" class="px-3 pb-6 sm:px-5">
+      <div class="mx-auto max-w-[84rem] rounded-[2.5rem] bg-white px-5 py-16 ring-1 ring-ink/[0.06] sm:px-10 md:py-24 lg:px-14">
+        <div class="mx-auto max-w-7xl">
+          <p class="eyebrow">Kontakt</p>
+          <h2 class="mt-6 max-w-2xl text-2xl font-light leading-snug text-ink/80 sm:text-3xl">Termine, Verschiebungen und Absagen nehmen wir ausschliesslich telefonisch entgegen.</h2>
+
+          <div class="mt-10 flex items-center gap-3 sm:gap-5">
+            <a href="tel:+41619718081" class="press whitespace-nowrap rounded-2xl text-[clamp(2rem,7vw,6.5rem)] font-extralight leading-none tracking-[-0.04em] tabular-nums">061 971 80 81</a>
+            <button id="copy-phone" type="button" class="swap press h-soft grid size-11 shrink-0 place-items-center rounded-full text-ink ring-1 ring-ink/15 sm:size-12" data-done="false" aria-label="Telefonnummer kopieren">
+              <svg data-when="idle" class="col-start-1 row-start-1 size-[1.1rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <svg data-when="done" class="col-start-1 row-start-1 size-5 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            </button>
+            <span id="copy-status" class="sr-only" aria-live="polite"></span>
+          </div>
+
+          <div class="mt-14 grid gap-6 lg:grid-cols-12 lg:gap-10">
+            <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:col-span-7 lg:self-end">
+              <a href="tel:+41619718081" class="btn-primary px-7 py-3.5"><span class="size-1.5 rounded-full bg-accent"></span>Jetzt anrufen</a>
+              <a href="mailto:zunzgen@coletti.ch" class="btn-secondary px-7 py-3.5">E-Mail schreiben</a>
+              <a href="https://www.google.com/maps/search/?api=1&query=Zahnarztpraxis+Coletti+AG%2C+Hauptstrasse+23%2C+4455+Zunzgen" target="_blank" rel="noopener" class="btn-secondary px-7 py-3.5">Google Maps <span aria-hidden="true" class="text-ink/40">↗</span></a>
+            </div>
+            <dl class="grid grid-cols-2 border-t border-ink/10 lg:col-span-5">
+              <div class="col-span-2 border-b border-ink/10 py-4 sm:col-span-1"><dt class="text-sm font-light text-ink/50">Adresse</dt><dd class="mt-1 leading-snug"><address class="not-italic">Hauptstrasse 23<br>4455 Zunzgen BL</address></dd></div>
+              <div class="col-span-2 border-b border-ink/10 py-4 sm:col-span-1"><dt class="text-sm font-light text-ink/50">E-Mail</dt><dd class="mt-1"><a class="press rounded underline decoration-accent decoration-1 underline-offset-4" href="mailto:zunzgen@coletti.ch">zunzgen@coletti.ch</a></dd></div>
+              <div class="col-span-2 py-4"><dt class="text-sm font-light text-ink/50">Zweiter Standort</dt><dd class="mt-1 leading-snug">Landstrasse 40, 5073 Gipf-Oberfrick · <a class="press whitespace-nowrap rounded underline decoration-accent decoration-1 underline-offset-4" href="tel:+41628713942">062 871 39 42</a></dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ============ FAQ ============ -->
-    <section id="fragen" class="px-5 pb-24 sm:px-10 md:pb-36">
+    <section id="fragen" class="px-5 py-24 sm:px-10 md:py-32">
       <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-12">
         <div class="lg:col-span-4">
           <p class="eyebrow">Fragen</p>
@@ -1174,52 +1187,6 @@
             </summary>
             <p class="max-w-2xl pb-6 pr-12 font-light leading-relaxed text-ink/65">Nach dem Zahnarzttarif DENTOTAR®. Unsere Taxpunktwerte seit Anfang 2018: Privat 1.13, UVG / IV / MV / KJZ / SZP 1.00, KVG 3.10.</p>
           </details>
-          <details class="faq group border-b border-ink/10">
-            <summary class="press flex cursor-pointer items-center justify-between gap-6 rounded-2xl py-5 text-lg font-light leading-snug sm:text-xl">
-              <h3>Wer sind die Zahnärztinnen und Zahnärzte?</h3>
-              <span class="faq-icon grid size-8 shrink-0 place-items-center rounded-full ring-1 ring-ink/15" aria-hidden="true"><svg class="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
-            </summary>
-            <p class="max-w-2xl pb-6 pr-12 font-light leading-relaxed text-ink/65">Dr. med. dent. Luigi Coletti, Dr. med. dent. Adriana Scioscia (Fachzahnärztin für Rekonstruktive Zahnmedizin), Dr. med. dent. Luca Forcella und M Dent Med Izabela Pejic – alle eidgenössisch diplomiert und Mitglied der Schweizerischen Zahnärztegesellschaft SSO.</p>
-          </details>
-          <details class="faq group border-b border-ink/10">
-            <summary class="press flex cursor-pointer items-center justify-between gap-6 rounded-2xl py-5 text-lg font-light leading-snug sm:text-xl">
-              <h3>Gibt es einen zweiten Standort?</h3>
-              <span class="faq-icon grid size-8 shrink-0 place-items-center rounded-full ring-1 ring-ink/15" aria-hidden="true"><svg class="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
-            </summary>
-            <p class="max-w-2xl pb-6 pr-12 font-light leading-relaxed text-ink/65">Ja. Die Zahnarztpraxis Coletti AG führt zusätzlich eine Praxis an der Landstrasse 40 in 5073 Gipf-Oberfrick (Telefon 062 871 39 42).</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Kontakt ============ -->
-    <section id="kontakt" class="px-3 pb-6 sm:px-5">
-      <div class="mx-auto max-w-[84rem] rounded-[2.5rem] bg-white px-5 py-16 ring-1 ring-ink/[0.06] sm:px-10 md:py-24 lg:px-14">
-        <div class="mx-auto max-w-7xl">
-          <p class="eyebrow">Kontakt</p>
-          <h2 class="mt-6 max-w-2xl text-2xl font-light leading-snug text-ink/80 sm:text-3xl">Termine, Verschiebungen und Absagen nehmen wir ausschliesslich telefonisch entgegen.</h2>
-
-          <div class="mt-10 flex items-center gap-3 sm:gap-5">
-            <a href="tel:+41619718081" class="press whitespace-nowrap rounded-2xl text-[clamp(2rem,7vw,6.5rem)] font-extralight leading-none tracking-[-0.04em] tabular-nums">061 971 80 81</a>
-            <button id="copy-phone" type="button" class="swap press h-soft grid size-11 shrink-0 place-items-center rounded-full text-ink ring-1 ring-ink/15 sm:size-12" data-done="false" aria-label="Telefonnummer kopieren">
-              <svg data-when="idle" class="col-start-1 row-start-1 size-[1.1rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-              <svg data-when="done" class="col-start-1 row-start-1 size-5 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
-            </button>
-            <span id="copy-status" class="sr-only" aria-live="polite"></span>
-          </div>
-
-          <div class="mt-14 grid gap-6 lg:grid-cols-12 lg:gap-10">
-            <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:col-span-7 lg:self-end">
-              <a href="tel:+41619718081" class="btn-primary px-7 py-3.5"><span class="size-1.5 rounded-full bg-accent"></span>Jetzt anrufen</a>
-              <a href="mailto:zunzgen@coletti.ch" class="btn-secondary px-7 py-3.5">E-Mail schreiben</a>
-              <a href="https://www.google.com/maps/search/?api=1&query=Zahnarztpraxis+Coletti+AG%2C+Hauptstrasse+23%2C+4455+Zunzgen" target="_blank" rel="noopener" class="btn-secondary px-7 py-3.5">Google Maps <span aria-hidden="true" class="text-ink/40">↗</span></a>
-            </div>
-            <dl class="grid grid-cols-2 border-t border-ink/10 lg:col-span-5">
-              <div class="col-span-2 border-b border-ink/10 py-4 sm:col-span-1"><dt class="text-sm font-light text-ink/50">Adresse</dt><dd class="mt-1 leading-snug"><address class="not-italic">Hauptstrasse 23<br>4455 Zunzgen BL</address></dd></div>
-              <div class="col-span-2 border-b border-ink/10 py-4 sm:col-span-1"><dt class="text-sm font-light text-ink/50">E-Mail</dt><dd class="mt-1"><a class="press rounded underline decoration-accent decoration-1 underline-offset-4" href="mailto:zunzgen@coletti.ch">zunzgen@coletti.ch</a></dd></div>
-              <div class="col-span-2 py-4"><dt class="text-sm font-light text-ink/50">Zweiter Standort</dt><dd class="mt-1 leading-snug">Landstrasse 40, 5073 Gipf-Oberfrick · <a class="press whitespace-nowrap rounded underline decoration-accent decoration-1 underline-offset-4" href="tel:+41628713942">062 871 39 42</a></dd></div>
-            </dl>
-          </div>
         </div>
       </div>
     </section>
@@ -1230,8 +1197,8 @@
     <div class="mx-auto flex max-w-7xl flex-col gap-6 md:flex-row md:items-center md:justify-between">
       <img src="assets/logo.svg" alt="coletti Zahnarzt Praxis" width="1360" height="319" loading="lazy" class="h-6 w-auto self-start md:self-auto">
       <div class="-ml-3 flex flex-wrap items-center text-sm font-light text-ink/55 md:ml-0">
-        <button type="button" data-open-dialog="impressum" class="press rounded-full px-3 py-2 hover:text-ink">Impressum</button>
-        <a href="https://www.coletti.ch/impressum-datenschutz.html" target="_blank" rel="noopener" class="press rounded-full px-3 py-2 hover:text-ink">Datenschutz</a>
+        <a href="impressum.html" data-legal class="press rounded-full px-3 py-2 hover:text-ink">Impressum</a>
+        <a href="datenschutz.html" data-legal class="press rounded-full px-3 py-2 hover:text-ink">Datenschutz</a>
         <a href="https://www.facebook.com/Coletti.Zahnarzt/" target="_blank" rel="noopener" class="press rounded-full px-3 py-2 hover:text-ink">Facebook</a>
         <span class="px-3 py-2 text-ink/40">© <span id="year">2026</span> Zahnarztpraxis Coletti AG</span>
       </div>
@@ -1248,20 +1215,20 @@
     </div>
   </div>
 
-  <!-- ============ Impressum ============ -->
-  <dialog id="impressum" class="sheet m-auto w-[min(32rem,calc(100vw-2rem))] overflow-hidden rounded-3xl bg-white p-0 text-ink shadow-[0_30px_60px_-15px_rgb(29_31_27/0.35)]" aria-labelledby="impressum-title">
-    <div class="flex items-center justify-between border-b border-ink/[0.07] px-6 py-4">
-      <h2 id="impressum-title" class="flex items-center gap-2.5 text-lg font-normal"><span class="size-1.5 rounded-full bg-accent"></span>Impressum</h2>
-      <button type="button" data-close-dialog class="press h-soft grid size-9 place-items-center rounded-full ring-1 ring-ink/10" aria-label="Schliessen">
-        <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
-      </button>
+  <!-- ============ Impressum / Datenschutz (content loaded from impressum.html / datenschutz.html) ============ -->
+  <dialog id="legal" class="sheet m-auto h-[min(48rem,calc(100dvh-2rem))] w-[min(46rem,calc(100vw-2rem))] overflow-hidden rounded-3xl bg-white p-0 text-ink shadow-[0_30px_60px_-15px_rgb(29_31_27/0.35)]" aria-labelledby="legal-title">
+    <div class="flex h-full flex-col">
+      <div class="flex shrink-0 items-center justify-between gap-4 border-b border-ink/[0.07] px-6 py-4">
+        <h2 id="legal-title" class="flex items-center gap-2.5 text-lg font-normal"><span class="size-1.5 rounded-full bg-accent"></span><span data-legal-title></span></h2>
+        <div class="flex items-center gap-2">
+          <a data-legal-link href="#" class="press h-soft hidden rounded-full px-3 py-2 text-sm font-light text-ink/55 ring-1 ring-ink/10 sm:inline-flex">Als Seite öffnen ↗</a>
+          <button type="button" data-close-dialog class="press h-soft grid size-9 place-items-center rounded-full ring-1 ring-ink/10" aria-label="Schliessen">
+            <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+      <div data-legal-body class="legal-body min-h-0 flex-1 overflow-y-auto overscroll-contain px-6 py-6 sm:px-8"></div>
     </div>
-    <dl class="space-y-4 px-6 py-6 text-[0.9375rem] font-light leading-relaxed text-ink/75">
-      <div><dt class="text-sm text-ink/45">Verantwortlich für den Inhalt</dt><dd class="mt-0.5 text-ink">Zahnarztpraxis Coletti AG<br>Hauptstrasse 23, 4455 Zunzgen, Schweiz<br><a class="underline decoration-accent underline-offset-2" href="tel:+41619718081">+41 61 971 80 81</a> · <a class="underline decoration-accent underline-offset-2" href="mailto:info@coletti.ch">info@coletti.ch</a></dd></div>
-      <div><dt class="text-sm text-ink/45">Copyright</dt><dd class="mt-0.5">Das Copyright für sämtliche Inhalte dieser Website liegt bei der Zahnarztpraxis Coletti AG.</dd></div>
-      <div><dt class="text-sm text-ink/45">Fotografie</dt><dd class="mt-0.5">HELLER IT + Treuhand GmbH und Luigi Coletti</dd></div>
-      <div><dt class="text-sm text-ink/45">Haftungsausschluss</dt><dd class="mt-0.5">Alle Texte und Links wurden sorgfältig geprüft. Für Richtigkeit, Vollständigkeit und Aktualität der Informationen sowie für Inhalte verlinkter Websites wird keine Haftung übernommen.</dd></div>
-    </dl>
   </dialog>
 
   <!-- ============ Lebensläufe ============ -->
@@ -1513,11 +1480,31 @@
       barIO.observe($('#kontakt'));
 
       /* ================= Dialog ================= */
-      $$('[data-open-dialog]').forEach((btn) => btn.addEventListener('click', () => {
-        const dlg = document.getElementById(btn.dataset.openDialog);
+      const openDialog = (dlg) => {
         dlg.dataset.instant = 'false';
         dlg.showModal();
         requestAnimationFrame(() => { dlg.dataset.state = 'open'; });
+      };
+      $$('[data-open-dialog]').forEach((btn) => btn.addEventListener('click', () => openDialog(document.getElementById(btn.dataset.openDialog))));
+
+      // Impressum / Datenschutz: real pages (direct URL), shown here as a modal.
+      // If loading fails, the link simply opens the page.
+      const legal = $('#legal'), legalCache = {};
+      $$('a[data-legal]').forEach((a) => a.addEventListener('click', async (e) => {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+        e.preventDefault();
+        try {
+          legalCache[a.href] ??= await fetch(a.href).then((r) => {
+            if (!r.ok) throw new Error(r.status);
+            return r.text();
+          }).then((html) => new DOMParser().parseFromString(html, 'text/html'));
+        } catch { location.href = a.href; return; }
+        const doc = legalCache[a.href];
+        $('[data-legal-title]', legal).textContent = doc.querySelector('article h1').textContent;
+        $('[data-legal-body]', legal).innerHTML = doc.querySelector('.legal-body').innerHTML;
+        $('[data-legal-body]', legal).scrollTop = 0;
+        $('[data-legal-link]', legal).href = a.href;
+        openDialog(legal);
       }));
       $$('dialog.sheet').forEach((dlg) => {
         const close = () => {

@@ -12,4 +12,12 @@
     <image:image><image:loc>https://www.coletti.ch/assets/team/luca-forcella.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.coletti.ch/assets/team/izabela-pejic.jpg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://www.coletti.ch/impressum.html</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.coletti.ch/datenschutz.html</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
 </urlset>

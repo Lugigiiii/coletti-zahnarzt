@@ -1,6 +1,8 @@
 /* Tailwind source – compiled to assets/css/site.css with `npm run build`. */
 @import "tailwindcss" source(none);
 @source "../../index.html";
+@source "../../impressum.html";
+@source "../../datenschutz.html";
 
 @theme {
   --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
@@ -58,4 +60,20 @@
 @utility no-scrollbar {
   scrollbar-width: none;
   &::-webkit-scrollbar { display: none; }
+}
+
+/* Long-form legal text (Impressum, Datenschutz) – page and modal */
+@layer components {
+  .legal-body { @apply text-[0.9375rem] font-light leading-relaxed text-ink/75 sm:text-base; }
+  .legal-body > * + * { @apply mt-4; }
+  .legal-body h2 { @apply mt-12 border-t border-ink/10 pt-8 text-xl font-normal leading-snug tracking-[-0.01em] text-ink sm:text-2xl; }
+  .legal-body h3 { @apply mt-8 font-medium text-ink; }
+  .legal-body h2 + *, .legal-body h3 + * { @apply mt-2; }
+  .legal-body > h2:first-child { @apply mt-0 border-t-0 pt-0; }
+  .legal-body a { @apply break-words rounded underline decoration-accent decoration-1 underline-offset-4; }
+  .legal-body ol { @apply list-decimal space-y-1 pl-6 marker:text-ink/35; }
+  .legal-table { @apply overflow-hidden rounded-2xl bg-white ring-1 ring-ink/[0.07]; }
+  .legal-table > div { @apply grid grid-cols-[8.5rem_1fr] gap-3 border-b border-ink/[0.07] px-4 py-2.5 last:border-b-0; }
+  .legal-table dt { @apply text-ink/45; }
+  .legal-table dd { @apply break-words text-ink/80; }
 }
