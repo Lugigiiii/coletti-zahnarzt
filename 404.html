@@ -13,11 +13,12 @@
     // Old pages of the previous website → matching section of the new one-pager.
     (() => {
       const path = location.pathname.toLowerCase();
-      const map = [['team', 'team'], ['behandlung', 'behandlungen'], ['kontakt', 'kontakt'], ['praxen', 'praxis'], ['praxis', 'praxis'], ['geschichte', 'geschichte']];
+      const map = [['impressum', 'impressum.html'], ['datenschutz', 'datenschutz.html'], ['team', '#team'], ['behandlung', '#behandlungen'],
+        ['kontakt', '#kontakt'], ['praxen', '#praxis'], ['praxis', '#praxis'], ['geschichte', '#geschichte']];
       const hit = map.find(([k]) => path.includes(k));
       const home = path.startsWith('/coletti-zahnarzt/') ? '/coletti-zahnarzt/' : '/';
       window.__home = home;
-      if (hit) location.replace(home + '#' + hit[1]);
+      if (hit) location.replace(home + hit[1]);
     })();
   </script>
   <style>

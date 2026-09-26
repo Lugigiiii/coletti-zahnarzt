@@ -48,4 +48,5 @@ Monika Schafroth (Dentalhygienikerin HF, seit 2001) sowie die Dentalassistentinn
 
 - [Startseite mit allen Informationen](https://www.coletti.ch/)
 - [Häufige Fragen](https://www.coletti.ch/#fragen)
-- [Impressum und Datenschutz](https://www.coletti.ch/impressum-datenschutz.html)
+- [Impressum](https://www.coletti.ch/impressum.html)
+- [Datenschutzerklärung](https://www.coletti.ch/datenschutz.html)
